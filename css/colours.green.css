@@ -1,0 +1,25 @@
+/* Default (blue/green) Style */
+
+#headerstripe { background-color:#85db67; }
+#header { background-color:#489e19; }
+#header .name { color:#FFFFFF; }
+#header .nav a { color:#FFFFFF;border:1px solid #489e19; }
+#header .nav a:hover { color:#FFFFFF; border:1px solid #62a73c; background-color:#39860e; }
+#header .nav .active { border:1px solid #62a73c; background-color:#39860e; }
+
+#rightbar { background-color:#f7fff4; }
+#rightbar a { color:#666666; }
+#rightbar a:hover { background-color:#666666; color:#FFFFFF; }
+
+#content .links a { color:#3567aa; background-color:#FFFFFF;  }
+#content .links a:hover { background-color:#3567aa; color:#ffffff; }
+#content .links .active { background-color:#3567aa; color:#FFFFFF; }
+
+#content a { color:#3567aa; }
+#content a:hover { background-color:#3567aa; color:#FFFFFF; }
+
+#content h1 { color:#5b5b5b; }
+#content h2 {  color:#ce1c4e; }
+
+#content .sublink { background-color:#ce1c4e; color:#FFFFFF; }
+#content .sublink:hover { background-color:#FFFFFF; color:#ce1c4e; }

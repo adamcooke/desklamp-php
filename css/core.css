@@ -1,0 +1,116 @@
+/* CSS Document */
+
+body { margin:0px; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; color:#333333; min-width:750px; background-color:#FFFFFF; }
+
+#headerstripe { height:6px; font-size:1px; }
+#header {  padding-left:25px; padding-right:25px; height:65px; }
+#header .logo { float:left; }
+#header .name { float:left; clear:left; padding-top:5px; font-size:23px; }
+#header .q3ilogo { float:right; margin-top:7px; }
+#header .nav { float:right; clear:right; margin-top:10px; color:#FFFFFF; }
+#header .nav ul { display:inline; }
+#header .nav li { display:inline; padding-left:8px; }
+#header .nav a { padding:3px; text-decoration:none;  }
+#header .nav a:hover { padding:3px;  text-decoration:none;  }
+
+#container { margin-right:25px; margin-left:25px; }
+
+#content { float:left; padding-top:10px; width:70%; border-left:5px solid #ECF2FF;border-bottom:5px solid #ECF2FF;border-right:5px solid #ECF2FF;; padding:10px; }
+#content a { text-decoration:none; }
+#content a:hover { text-decoration:none; }
+#content h1 { margin-bottom:3px; font-size:18px; margin-top:3px; }
+#content h2 { font-size:16px; margin-top:3px; margin-bottom:3px; }
+#content .links { font-size:13px; line-height:15px;}
+#content .links a { text-decoration:none; }
+#content .links a:hover { text-decoration:none; }
+#content .news { background-color:#FFFFCC; padding:4px; font-size:12px; line-height:17px;border-left:6px solid #FFCC33; border-right:1px solid #ffcc33;border-top:1px solid #ffcc33;border-bottom:1px solid #ffcc33; }
+#content hr { clear:both; border-top:1px solid #CCCCCC; border-bottom:0; border-left:0; border-right:0; height:1px; background-color:#FFFFFF; padding:0px; }
+#content p { margin-top:3px; margin-bottom:3px; }
+
+#content .subtext { font-size:11px; color:#999999; line-height:16px; }
+#content .sublink { font-size:12px; text-decoration:none; padding-left:1px; padding-right:1px; }
+#content .sublink:hover { }
+#content input { margin-top:3px;  font-family:tahoma, Verdana, sans-serif; padding:2px; }
+
+
+#content .home-listing { clear:both; }
+#content .home-listing h2 { float:left; }
+#content .home-listing p { float:right; }
+#content .home-listing a {}
+
+#content .home-listing table { clear:left; font-family:tahoma, Verdana, sans-serif; font-size:12px;  }
+#content .home-listing th { color:#999999; font-size:10px; text-align:left; padding:3px; }
+#content .home-listing td { padding:3px; }
+#content .home-listing tr.odd { background-color:#e3e3e3; }
+
+#content ul { line-height:23px; }
+
+#content table { clear:left; font-family:tahoma, Verdana, sans-serif; font-size:12px; line-height:15px;  }
+#content th { color:#999999; font-size:10px; text-align:left; padding:3px; }
+#content td { padding:3px; }
+#content tr.odd { background-color:#e3e3e3; }
+#content .mo { background-color:#DFEBFF; }
+#rightbar { float:right; width:25%; padding:5px; line-height:20px; }
+#rightbar ul { list-style:none; margin-left:0px; padding-left:15px; }
+#rightbar li  { margin-bottom:5px;}
+#rightbar li img { margin-right:4px; float:left; }
+#rightbar a {}
+#rightbar a:hover { text-decoration:none; }
+
+#error { width:350px; margin:auto; text-align:center; border:3px double #999999; padding:5px; margin-top:25px; font-family:"Trebuchet MS", Verdana, sans-serif;  }
+#error h1 { color:#FF3300; margin:0px; font-size:16px; margin-bottom:5px; margin-top:3px;  }
+#error p { margin:0px; color:#999999; font-size:11px; font-size:13px; color:#000000;  }
+#error p.subtext { font-size:11px; color:#999999; }
+#error p.subtext a { color:#999999; text-decoration:underline; }
+
+.login { background-color:#CCCCCC; min-width:400px; }
+#login a { color:#666666; text-decoration:none; }
+#login a:hover { color:#FFFFFF; background-color:#666666; text-decoration:none; }
+#login { background-color:#FFFFFF; width:400px; margin:auto; margin-top:50px; text-align:center; padding:10px; border:5px solid #999999; }
+#login p { margin-top:0px; margin-bottom:10px; line-height:20px;  }
+#login input { font-size:16px; font-family:tahoma, Verdana, sans-serif; padding:2px; }
+#login #forgotpassword { border:2px solid #98A8F3; background-color:#EDF1FC; padding:5px; font-size:11px; line-height:15px; margin-bottom:5px; }
+#login #forgotpassword h1 { text-align:center; font-size:16px; color:#5B93F9; }
+#login #remember-text { color:#F7A244; }
+#login .subtext { font-size:12px; color:#666666; }
+
+textarea { border:1px solid #cccccc; padding:2px; font-family:tahoma, Verdana, sans-serif; font-size:12px; }
+input { border:1px solid #cccccc; }
+select { font-family:tahoma, Verdana, sans-serif; font-size:12px; }
+.button { font-weight:bold;}
+.focus { background-color:#E8EDFF; border:1px solid #7C94F3; padding:2px; }
+.button2 { padding:4px; font-size:12px; margin:0px; }
+
+.message-info { color:#52b21e; border:1px solid #b2d3a0; background-color:#e5f6dc; clear:both; font-weight:bold; padding:4px; line-height:20px; margin-bottom:5px;}
+.message-error { color:#C83C3F;border:1px solid #F1A5AA; background-color:#FBF0F0; clear:both; font-weight:bold; padding:4px; line-height:20px; margin-bottom:5px;}
+.message-info img { float:left; margin-right:5px; margin-top:-1px; }
+.message-error img { float:left; margin-right:5px; margin-top:-1px; }
+.message-info p { margin:0px; }
+.message-error p { margin:0px; }
+
+.setting-block  {margin-top:5px; margin-bottom:5px; padding-top:5px; padding-bottom:5px; }
+.errorfield { background-color:#FFEBEA; border:1px solid #FF9D9D; }
+
+a img { background-color:inherit; }
+
+
+
+#content .addboxstyle { clear:both; border:2px solid #CCCCCC; padding:5px; margin-top:5px; margin-bottom:5px; background-color:#FFFEE8;}
+#content .addboxstyle h1 { font-size:14px; }
+#content .addboxstyle .close { font-size:10px; float:right; }
+
+.split { clear:both; }
+.split .left { float:left; width:49% }
+.split .right { float:right; width:49% }
+
+#footer {  margin-right:25px; margin-left:25px;  clear:left; font-size:11px; color:#999999;  padding-top:15px; }
+#footer a { color:#999999; text-decoration:underline; }
+
+form { margin:0px; padding:0px; }
+#pagenumbers { float:right; }
+#pagenumbers p { margin:0px; }
+#pagenumbers .active { color:#FF3300;}
+
+.highlight { background-color:#FFBBBD; }
+
+.companylogo {text-align:center; }
